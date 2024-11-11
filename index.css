@@ -1,0 +1,63 @@
+body {
+    background-color: #1f2937;
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: white;
+    margin: 0;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: 10vw;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: white;
+    margin: 0;
+    line-height: 1;
+}
+
+h1 span {
+    color: #4ADF86;
+    display: block;
+}
+
+p {
+    font-size: 2rem;
+    color: lightgray;
+    margin: 0;
+    margin-bottom: 2rem;
+
+}
+
+.generate-btn {
+    background-color: #4ADF86;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 1.25rem;
+    transition: background-color 0.2s;
+}
+
+.generate-btn:hover  {
+    background-color: #059669;
+}
+
+.password-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.password-box {
+    background-color: #273549;
+    padding: 1rem;
+    border-radius: 6px;
+    min-height: 0.5rem;
+    min-width: 11rem;
+    font-size: 1.25rem;
+}
+
